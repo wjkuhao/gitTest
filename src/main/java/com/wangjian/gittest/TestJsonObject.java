@@ -11,6 +11,7 @@ public class TestJsonObject {
         JSONObject jsonObject = new JSONObject();
         jsonObject.put("name","你好");
         jsonObject.put("phone","12122121");
+        jsonObject.put("idCard","232332323233");
         String s = jsonObject.toString();
         System.out.println(s);
     }
